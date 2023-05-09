@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: #0c143c;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  background: #000000;
+  font-size: 90px;
+  color: #f94f6d;
+  width: 120px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+button {
+  background: #ffff;
+  border-radius: 5px;
+  border-color: #000000;
+}
+
+.reset {
+  background-color: red;
+  color: #ffff;
+}
+
+h3 {
+  color: #ffff;
+}
+
+/* @media (400px) {
+  flex-wrap: wrap;
+} */
